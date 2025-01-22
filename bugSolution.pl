@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); my $element; if ($#array >= 3) { $element = $array[3]; } else { $element = undef; # Or handle the error appropriately } #Safely accessing an array element, or handling out of bound error.
